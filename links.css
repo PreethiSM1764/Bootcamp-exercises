@@ -1,0 +1,43 @@
+.v5{
+  
+    background-color:white;
+    padding: 100px;
+    width: 900px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    height: 150px 600px;     
+      
+  }
+  .v11 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight:bold;
+    color: rgb(3, 3, 3);
+    background-color:rgb(118, 108, 248);
+    text-align: center;
+  }
+  .v12{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(3, 3, 3);
+    font-size:medium;
+    font-weight: 500;
+  }
+  .v13{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-style: bold;
+    text-align: left;
+    font-size: large;
+  }
+  .lkn{
+    font-family: "Times New Roman", Times, serif;
+    color: blue;
+    font-style: bold;
+    text-align: right;
+    font-size: large;
+  }
+  img {
+    border: 0;
+    float: right;
+    vertical-align: top;
+}
