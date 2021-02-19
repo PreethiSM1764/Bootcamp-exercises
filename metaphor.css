@@ -1,0 +1,42 @@
+.v5{
+  
+    background-color: rgb(193, 247, 193);
+    padding: 5px;
+    width: 300px;
+    border: 0px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    height: 150px 500px;  
+    border-style: outset;   
+  }
+  .v6 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight:bold;
+    color: white;
+    background-color:rgb(54, 121, 112);
+ }
+ .v7{
+     font:small;
+     font-family:  Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+     color: brown;
+     text-align: left;
+     font-weight: 200px;
+  
+
+ }
+ .v8{
+    font:small;
+    font-family: Comic, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    padding-left:70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin:5px 5px 5px 5px;
+    border:2px 2px 2px 2px;
+    text-decoration: black;
+
+ }
+  
