@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Form.css">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="container">
+    
+    <h3 class="button">Tell us about your positive experience today!</h3>
+    <form action="action_page.php" class="form-inline">
+        
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="Name" placeholder="Enter your name" >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Email" name="Email" placeholder="Enter your mail id here">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+          <label for="scale">On a scale of 1-10,how good it is? </label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="Scale" name="Scale" placeholder="Enter a number between 1 and 10">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="scale">Where did it happen? </label>
+            </div>
+            <div>
+            <select id="Field106" name="Field106" class="col-75" > 
+              <option value="At home">At Home</option>
+              <option value="At Work">At Work</option>
+              <option value="At School">At School</option>
+              </select>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="scale">What time was it? </label>
+            </div>
+            
+            <div>
+                <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                <div>
+                    <input id="Field5_0" name="Field5" type="radio" value="First Choice"  checked="checked">
+                    <label class="choice" for="Field5_0">Morning</label>
+                </div>
+              <div>
+                  <input id="Field5_1" name="Field5" type="radio" value="Second Choice" >
+                  <label class="choice" for="Field5_1">Afternoon</label>
+              </div>
+              <div>
+                <input id="Field5_2" name="Field5" type="radio" value="Third Choice" >
+                <label class="choice" for="Field5_2">Evening</label>
+              </div>
+            </div>
+        
+        </div>
+        <div class="row">
+          <div class="col-25">
+          <label for="scale">What emotions did you experience? </label>
+          </div>
+        <div><label for="muhRadio1"><input type="radio" name="muhRadio" value=""/> Excited</label></div>
+        <div><label for="muhRadio2"><input type="radio" name="muhRadio" value=""/>Humbled</label></div>
+        <div><label for="muhRadio3"><input type="radio" name="muhRadio" value=""/>Elated</label></div>
+        <div><label for="muhRadio4"><input type="radio" name="muhRadio" value=""/>Loved</label></div>
+        <div><label for="muhRadio5"><input type="radio" name="muhRadio" value=""/>Enthusiatic</label></div>
+        
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Please describe your positive experience </label>
+        </div>
+        <div class="col-55">
+          <textarea id="subject" name="subject" placeholder="Enter your experience here..." style="height:200px"></textarea>
+        </div>
+        <div class="row">             
+        <div class="button">
+             <button>Submit</button>
+            </div>
+          </div>
+    </form>
+  </div>
