@@ -1,0 +1,92 @@
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+ 
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  /* input[type=submit] {
+    
+    
+    }
+     */
+
+    .button{
+        text-align: center;
+    
+    }
+  
+  /* Style the container */
+  .container {
+  
+    background-color: #f2f2f2;
+    padding: 100px;
+    width: 900px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    height: 150px 600px;     
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .subj {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+      
+
+  }
+  
+  .col-25 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+  }
+  
+
+ 
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+  .col-55 {
+    float: left;
+    width: 50%;
+    height: 55%
+    
+  }
+
+  input[type=radio] {
+    border: 3px;
+    padding: 0.5em;
+ 
+  }
+  
+  input[type=radio]:checked {
+
+    background-size: 9px 9px;
+  }
+  
+ 
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
