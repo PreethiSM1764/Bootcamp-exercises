@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Styling</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <style>
+body {
+    background-color: lightblue;
+
+  }
+
+  a {
+    text-decoration: none;
+    color:rgb(169, 248, 228);
+
+  }
+
+  #container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    align-content: center;
+    }
+
+  .row25 {
+    background-color: rgb(25, 127, 196);
+    align-content: center;
+}
+
+  .row25 h2{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+  }
+
+  .row25 p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+   
+  .row25 label {
+
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+  .row75 label{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+
+  .row25 .row75 input {
+
+    padding-bottom: 10px;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: auto;
+    margin-left: 35px;
+}
+
+  .row25 button {
+    background-color: #bcdce4;
+    display: block;
+    height: 40px;
+    width: 320px;
+    margin-top: 20px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: normal;
+    
+
+  }
+   
+  .row25 .bottom-text {
+    padding-bottom: 20px;
+    font-size: medium;
+
+  }
+
+  footer {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+
+  }
+
+  footer a {
+    color: #051733;
+
+  }</style>
+      <div id="container">
+      <div class="row25">
+        <h2><br>Sign Up</h2>
+        <p>It's free and only takes a minute</p>
+        <form>
+          <div class="row75">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name">
+          </div>
+          <div class="row75">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name">
+          </div>
+          <div class="row75">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="row75">
+            <label for="pno">Phone Number</label>
+            <input type="number" name="pno" id="pno">
+          </div>
+          <div class="row75">
+            <label for="psd">Password</label>
+            <input type="psd" name="psd" id="psd">
+          </div>
+          <div class="row75">
+            <label for="pswd">Confirm Password</label>
+            <input type="pswd" name="pswd" id="pswd">
+          </div>
+          <button type="submit" class="button">Sign Up</button>
+          <p class="submit">
+            By clicking the Sign Up button, you agree to our
+            <a href="#"><br>Terms and Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  
+  
+  </body></html>
